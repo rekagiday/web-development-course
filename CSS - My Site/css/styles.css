@@ -1,3 +1,7 @@
+a {
+color: #11999E;
+}
+
 body {
   margin-top: 0px;
   text-align: center;
@@ -5,16 +9,30 @@ body {
 }
 
 h1 {
-  margin-top: 50px;
+  margin: 150px auto 0px auto;
+  font-size: 5.625rem;
   font-family: 'Sacramento', cursive;
+  color: #66BFBF;
 }
 
 h2 {
   font-family: 'Montserrat', serif;
+  font-size: 2rem;
+  margin-top: 0px;
+  color: #66BFBF;
+  font-weight: normal;
 }
 
 h3 {
   font-family: 'Montserrat', serif;
+  color: #11999E;
+}
+
+hr {
+  border-style: dotted none none none;
+  border-width: 6px;
+  border-color: #A1B6CC;
+  width: 5%;
 }
 
 .personal-photo {
@@ -40,4 +58,16 @@ h3 {
 
 .bottom-cloud {
   position: absolute;
+}
+.skill-row, .hobby-row {
+  margin: 100px auto;
+  width: 50%;
+  text-align:left;
+  line-height: 2;
+}
+
+.hobby-icon, .skill-icon {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
 }
